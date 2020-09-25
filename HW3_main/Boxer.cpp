@@ -37,16 +37,3 @@ void box(string& type, int border) {
 	return;
 }
 
-void Continue(int& q) {
-	for (q = 0; q < q + 1; q++) {
-		string type;
-		cout << "Type something in: ";
-		cin >> type;
-		int border;
-		cout << "Type in a number: ";
-		cin >> border;
-		cout << endl;
-		box(type, border);
-	}
-	return;
-}

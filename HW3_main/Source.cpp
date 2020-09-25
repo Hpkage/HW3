@@ -13,6 +13,23 @@ using std::endl;
 using std::string;
 
 int main() {
-	int q;
-	Continue(q);
+	while (true) {
+		string type;
+		cout << "Type something in (Press Q to quit): ";
+		cin >> type;
+		if (type == "Q") {
+			break;
+		}
+		int border;
+		cout << "Type in a number: ";
+		cin >> border;
+		if (border < 1) {
+			cout << endl;
+			cout << "Error type a Positive number: " << endl;
+			continue;
+		}
+		cout << endl;
+		box(type, border);
+	}
+	return 0;
 }
