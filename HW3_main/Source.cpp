@@ -13,12 +13,6 @@ using std::endl;
 using std::string;
 
 int main() {
-	string type;
-	cout << "Type something in: ";
-	cin >> type;
-	int border;
-	cout << "Type in a number: ";
-	cin >> border;
-	cout << endl;
-	box(type, border);
+	int q;
+	Continue(q);
 }
