@@ -27,7 +27,10 @@ void Collatz(int n) {
 }
 
 int main() {
-
+	cout << "Type in a positive integer: ";
+	int n;
+	cin >> n;
+	Collatz(n);
 
 	return 0;
 }
