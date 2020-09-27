@@ -2,16 +2,12 @@
 // Write a c++ program that solves the quadratic formula
 
 #include <iostream>
+#include <cmath>
 
 using std::cout;
 using std::cin;
 using std::endl;
-
-int solve(int j, int k, int l) {
-	
-
-	return 0;
-}
+using std::sqrt;
 
 int main() {
 
