@@ -18,5 +18,8 @@ int main() {
 		cout << "UNDEFINED." << endl;
 		return 1;
 	}
+
+	double x1, x2;
+
 	return 0;
 }
