@@ -7,3 +7,14 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+void Collatz(int n) {
+
+
+	return;
+}
+
+int main() {
+
+
+	return 0;
+}
