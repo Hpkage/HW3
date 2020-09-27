@@ -20,8 +20,8 @@ int main() {
 	}
 
 	double x1, x2;
-	x1 = (-b + sqrt((b * b) - 4 * a * b)) / (2 * a);
-	x2 = (-b - sqrt((b * b) - 4 * a * b)) / (2 * a);
+	x1 = (-b + sqrt((b * b) - 4 * a * c)) / (2 * a);
+	x2 = (-b - sqrt((b * b) - 4 * a * c)) / (2 * a);
 
 	cout << "X = " << x1 << " and or X = " << x2 << endl;
 
