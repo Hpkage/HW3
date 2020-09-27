@@ -15,7 +15,7 @@ using std::string;
 int main() {
 	while (true) {
 		string type;
-		cout << "Type something in (Press Q to quit): ";
+		cout << "Type in one word (Press Q to quit): ";
 		cin >> type;
 		if (type == "Q") {
 			break;
