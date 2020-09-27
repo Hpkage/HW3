@@ -9,7 +9,6 @@ using std::string;
 
 //creates a box around what the user types in
 void box(string& type, int border) {
-	//
 	if (border < 1) {
 		border = 1;
 	}
@@ -22,6 +21,7 @@ void box(string& type, int border) {
 				for (int k = 0; k < border; k++) {
 					cout << "*";
 				}
+				// outputs what user types in
 				cout << " " << type << " ";
 				for (int k = 0; k < border; k++) {
 					cout << "*";
