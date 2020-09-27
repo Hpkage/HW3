@@ -1,4 +1,4 @@
-// Source.cpp Hiromi Kageyama Sept. 26, 2020
+// collatz.cpp Hiromi Kageyama Sept. 26, 2020
 // Write a c++ program that follows the Collatz sequence
 
 #include <iostream>
