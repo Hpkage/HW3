@@ -14,5 +14,9 @@ int main() {
 	cout << "Enter the coefficient of a then b then c: ";
 	cin >> a >> b >> c;
 
+	if (a == 0) {
+		cout << "UNDEFINED." << endl;
+		return 1;
+	}
 	return 0;
 }
