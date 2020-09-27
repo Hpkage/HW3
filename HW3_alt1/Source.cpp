@@ -8,8 +8,10 @@ using std::cin;
 using std::endl;
 
 void Collatz(int n) {
+	while (n != 1) {
+		cout << n << " ";
 
-
+	}
 	return;
 }
 
