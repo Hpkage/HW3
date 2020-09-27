@@ -10,7 +10,9 @@ using std::endl;
 using std::sqrt;
 
 int main() {
-
+	double a, b, c;
+	cout << "Enter the coefficient of a then b then c: ";
+	cin >> a >> b >> c;
 
 	return 0;
 }
