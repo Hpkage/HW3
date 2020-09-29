@@ -9,24 +9,28 @@ using std::string;
 
 //creates a box around what the user types in
 void box(string& type, int border) {
-	if (border < 1) {
-		border = 1;
-	}
+
+
 	//top-bottom layer creater
-	for (int i = 0; i < 2 * border + 1; i++) {
+	for (auto i = 1; i <= 2 * border + 3; i++) {
+
 		//side layer creater
-		for (int j = 0; j < 2 + type.size() + 2 * border; j++) {
+		for (auto j = 1; j <= 2 + type.size() + 2 * border; j++) {
+			
 			//placement of text
-			if (i == border) {
-				for (int k = 0; k < border; k++) {
+			if (i > border && i < border + 4) {
+
+				if (j <= border || j > (2 + type.size() + 2 * border) - border) {
 					cout << "*";
 				}
-				// outputs what user types in
-				cout << " " << type << " ";
-				for (int k = 0; k < border; k++) {
-					cout << "*";
+				else if (i == border + 2 && j == border + 1) {
+					cout << " " << type << " ";
 				}
-				break;
+				else {
+					if (i != border + 2) {
+						cout << " ";
+					}
+				}
 			}
 			else {
 				cout << "*";
